@@ -1,9 +1,10 @@
 package com.stacksqueues;
-
 /**
- * DILWAR
- 
- */
+* DILWAR
+
+
+*/
+
 
 public class Stack<T> {
 
@@ -23,5 +24,16 @@ public class Stack<T> {
 
 	public T pop() {
 		return linkedList.pop();
+	}
+
+	public T peek() {
+		return linkedList.peek();
+	}
+
+	public boolean isEmpty() {
+		if (linkedList.size() == 0)
+			return true;
+		else
+			return false;
 	}
 }

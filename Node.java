@@ -1,6 +1,6 @@
 package com.stacksqueues;
 /**
-* DILAWR
+* DILWAR
 
 
 */

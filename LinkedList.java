@@ -1,9 +1,9 @@
 package com.stacksqueues;
-
 /**
- * DILWAR
- 
- */
+* DILWAR
+
+
+*/
 
 public class LinkedList<T> {
 	Node<T> head;
@@ -101,5 +101,9 @@ public class LinkedList<T> {
 		temp.next = null;
 		temp = tail;
 		return deletedElement;
+	}
+
+	public T peek() {
+		return head.data;
 	}
 }
